@@ -1,0 +1,25 @@
+{
+  "format": "asfe.project.v1",
+  "name": "Instagram Web Mini Game",
+  "projectId": "instagram_web_game",
+  "dimension": "2d",
+  "editorProfile": "web-mini-game",
+  "renderProfile": "web-renderer2d",
+  "assetProfile": "web-lightweight",
+  "defaultScene": "assets/game_config.json",
+  "sceneModule": "static",
+  "runtime": {
+    "enableRuntime2D": true,
+    "enableRuntime3D": false,
+    "enableBox2D": false,
+    "enableJolt3D": false
+  },
+  "web": {
+    "sceneModuleMode": "static",
+    "entry": "asfe_scene",
+    "renderer": "WebRenderer2D",
+    "canvasWidth": 1280,
+    "canvasHeight": 720,
+    "shaderFormat": "sdl2-canvas"
+  }
+}

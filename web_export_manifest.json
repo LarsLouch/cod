@@ -1,0 +1,16 @@
+﻿{
+    "format":  "asfe.web_export_manifest.v1",
+    "projectId":  "instagram_web_game",
+    "engineCommit":  "ed30eefb8fd9f78de11a62d87dae0a3ad7c93750",
+    "builtAt":  "2026-07-07T20:06:17.5823776-03:00",
+    "emscriptenVersion":  "6.0.2",
+    "entryHtml":  "index.html",
+    "wasm":  "instagram_web_game_web_player.wasm",
+    "loader":  "instagram_web_game_web_player.js",
+    "assetRegistry":  "assets/asset_registry.json",
+    "defaultScene":  "assets/game_config.json",
+    "smoke":  {
+                  "required":  true,
+                  "lastResult":  "pending"
+              }
+}

@@ -1,0 +1,12 @@
+{
+  "format": "asfe.instagram_web_game.config.v1",
+  "title": "Snaptube Speed Arena",
+  "goal": "Corra pela plataforma infinita, derrote Lentidao e BaixaQualidade, e use o especial de velocidade do Snaptube.",
+  "controls": {
+    "move": "A/D ou setas",
+    "attack1": "J, Espaco ou clique esquerdo",
+    "attack2": "K",
+    "special": "Segure L ou Shift"
+  },
+  "durationSeconds": 60
+}
