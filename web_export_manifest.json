@@ -2,7 +2,7 @@
     "format":  "asfe.web_export_manifest.v1",
     "projectId":  "instagram_web_game",
     "engineCommit":  "ed30eefb8fd9f78de11a62d87dae0a3ad7c93750",
-    "builtAt":  "2026-07-07T20:52:23.3687911-03:00",
+    "builtAt":  "2026-07-07T21:56:20.3548572-03:00",
     "emscriptenVersion":  "6.0.2",
     "entryHtml":  "index.html",
     "wasm":  "instagram_web_game_web_player.wasm",
