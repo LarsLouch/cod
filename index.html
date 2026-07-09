@@ -16,8 +16,15 @@
     <div id="loading">Loading Instagram Web Mini Game...</div>
     <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
     <script>
+        var ASFE_ASSET_VERSION = 'd0e95d697df2e6fb';
         var Module = {
             canvas: document.getElementById('canvas'),
+            locateFile: function(path, prefix) {
+                if (path === 'instagram_web_game_web_player.wasm' || path === 'instagram_web_game_web_player.data') {
+                    return (prefix || '') + path + '?v=' + ASFE_ASSET_VERSION;
+                }
+                return (prefix || '') + path;
+            },
             onRuntimeInitialized: function() {
                 document.getElementById('loading').classList.add('hidden');
                 console.log('[AsfeWebPlayer] WASM runtime initialized');
@@ -26,6 +33,6 @@
             printErr: function(text) { console.error('[ASFE]', text); }
         };
     </script>
-    <script src="instagram_web_game_web_player.js"></script>
+    <script src="instagram_web_game_web_player.js?v=d0e95d697df2e6fb"></script>
 </body>
 </html>
